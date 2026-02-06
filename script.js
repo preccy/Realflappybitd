@@ -14,9 +14,9 @@ const CONFIG = {
 
 // --- Content (edit me) ---
 const OPEN_WHEN = [
-  { title: "Open when you wake up ☀️", msg: "Good morning, princess. Drink water, stretch a little, and remember this: you are deeply loved before the day even starts." },
-  { title: "Open when you miss me 🌙", msg: "I miss you too. Insane amounts. Close your eyes for 5 seconds and imagine my arms around you. That’s where you belong." },
-  { title: "Open when you feel anxious 🌼", msg: "Breathe in for 4, hold for 4, out for 6. You are safe. You are not behind. You are not too much. You are my girl and you are doing your best." },
+  { title: "Open when you wake up ☀️", msg: "Morning baby. Water first, tiny stretch, then go be gorgeous. I loved you before this day started." },
+  { title: "Open when you miss me 🌙", msg: "I miss you too, stupid amounts. Close your eyes for five seconds and pretend I'm holding you. That's home." },
+  { title: "Open when you feel anxious 🌼", msg: "Breathe in 4, hold 4, out 6. You're safe. You're not behind. You're not too much. You're doing better than you think." },
   { title: "Open when you need confidence 👑", msg: "You are gorgeous, smart, and magnetic. Walk in like the room has been waiting for you. Because it has." },
   { title: "Open when you need to sleep 💤", msg: "Put the phone down in 10 minutes. Promise. I want your brain rested and your heart calm. Pretend I kissed your forehead right now." },
   { title: "Open when you feel sad 💗", msg: "It’s okay to have soft days. You don’t need to perform for me. You can be messy, quiet, emotional — I’m still here, still yours." },
@@ -28,33 +28,34 @@ const OPEN_WHEN = [
 
 const LOVE_LETTER = `Annie,
 
-This whole website is my way of leaving little pieces of love around for you to find whenever you need them.
+I made this because sometimes words disappear when we need them most. So here they are, waiting for you.
 
-I love your laugh. I love your softness. I love your stubborn little spark. I love how you care so deeply, even when you act like you don’t.
+I love your laugh when it sneaks out.
+I love your little attitude.
+I love how deeply you care, even when you pretend you don't.
 
-I know life gets loud sometimes. I know distance can feel heavy. I know there are days where your mind makes everything harder than it needs to be. On those days, read this slowly:
+If today is heavy, read this slowly:
 
-You are not hard to love.
-You are not too much.
-You are not alone.
+You are not difficult.
+You are not "too much".
+You are not alone for even a second.
 
-You are my favourite person. Still. Always.
+You are my person.
+Not in a temporary way. In a real way.
 
-I want all of it with you — the dumb jokes, the late-night talks, the chaotic errands, the slow mornings, the proud moments, the healing moments, the forever moments.
+I want the whole life with you — boring Tuesdays, loud weekends, silly arguments we laugh about later, warm mornings, and every chapter after that.
 
-Thank you for being you. Thank you for trusting me with your heart.
+Thank you for being exactly who you are.
 
-I adore you, princess.
-
-Love,
+Love always,
 Tom 💙`;
 
 const MONTHLY_LETTERS = [
-  { label: "January note", date: "Jan 2026", text: "My goal this month: love you loudly, consistently, and in ways you can actually feel. More check-ins, more little surprises, more us." },
-  { label: "February note", date: "Feb 2026", text: "You are my favourite valentine every year. I hope this month feels like pink skies, warm hugs, and silly kisses." },
-  { label: "March note", date: "Mar 2026", text: "I hope your confidence grows wild this month. I hope you look in the mirror and see what I see: beauty and fire." },
-  { label: "April note", date: "Apr 2026", text: "When life gets noisy, come back to us. We’re not perfect, but we’re real, and we keep choosing each other." },
-  { label: "May note", date: "May 2026", text: "I hope this month gives you soft mornings, clean wins, and random moments that remind you how loved you are." },
+  { label: "January note", date: "Jan 2026", text: "New month promise: less talking about love, more showing it. I want you to feel chosen every day." },
+  { label: "February note", date: "Feb 2026", text: "You are still my favourite valentine. Forever low-key obsessed with you." },
+  { label: "March note", date: "Mar 2026", text: "If your confidence dips, borrow mine. I see you clearly, and you're unreal." },
+  { label: "April note", date: "Apr 2026", text: "If the world gets loud, come sit with me in the quiet. We'll sort it out together." },
+  { label: "May note", date: "May 2026", text: "I hope this month feels like open windows, warm food, and that safe feeling in your chest." },
 ];
 
 const MEMORIES = [
@@ -98,9 +99,9 @@ const GALLERY = [
 ];
 
 const REASONS = [
-  "Your laugh resets my entire mood.",
-  "You make me feel chosen.",
-  "You’re so pretty it should be regulated.",
+  "Your laugh fixes my day instantly.",
+  "You make me feel picked on purpose.",
+  "You are unfairly pretty and it still catches me off guard.",
   "You are kind in ways people don’t always see.",
   "You’re funny without trying.",
   "You care deeply, and I adore that about you.",
@@ -110,7 +111,7 @@ const REASONS = [
   "You’re soft and strong at the same time.",
   "You give the best comfort.",
   "You look amazing in literally everything.",
-  "You are my favourite notification.",
+  "You are still my favourite notification.",
   "You make me feel lucky every single day.",
   "You are pure girlfriend material and then some.",
   "You’re my home, even from far away.",
@@ -127,7 +128,7 @@ const REASONS = [
   "You’re the first person I want to tell everything to.",
   "You make me smile at my phone like an idiot.",
   "You are my person. End of story.",
-  "Because you’re Annie. That’s enough forever. 💙",
+  "Because you are Annie. That's the whole reason. 💙",
 ];
 
 // =========================================================
