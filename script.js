@@ -14,81 +14,80 @@ const CONFIG = {
 
 // --- Content (edit me) ---
 const OPEN_WHEN = [
-  { title: "Open when you miss me", msg: "I hate the distance, but you’re my person. I’m not going anywhere. Come here. 💙" },
-  { title: "Open when you’re stressed", msg: "Breathe. Water. One thing at a time. You’ve got this — and I’m right here with you. 💙" },
-  { title: "Open when you can’t sleep", msg: "If I was there I’d be cuddling you and stealing the duvet. Sleep for me yeah. I love you." },
-  { title: "Open when you need a laugh", msg: "Imagine me trying to act hard then getting humbled by a tiny spider. I’m cringe. You’re cute. 💙" },
-  { title: "Open when you feel overwhelmed", msg: "Pause. Put your hand on your chest. Breathe in 4, hold 4, out 6. You’re safe. I love you." },
-  { title: "Open when you need motivation", msg: "You’re genuinely stronger than you think. Small steps still count. I’m proud of you." },
-  { title: "Open when you feel lonely", msg: "I’m with you in your pocket, in your heart, in this little website. Come back to me. 💙" },
-  { title: "Open when you doubt yourself", msg: "You’re not ‘too much’ or ‘not enough’. You’re you — and that’s exactly who I want." },
-  { title: "Open when you want reassurance", msg: "I choose you. I’m choosing you on the calm days AND the messy ones. Always." },
-  { title: "Open when you had a bad day", msg: "I’m sorry today was heavy. Let me hold you (mentally). Tomorrow can be softer." },
+  { title: "Open when you wake up ☀️", msg: "Good morning, princess. Drink water, stretch a little, and remember this: you are deeply loved before the day even starts." },
+  { title: "Open when you miss me 🌙", msg: "I miss you too. Insane amounts. Close your eyes for 5 seconds and imagine my arms around you. That’s where you belong." },
+  { title: "Open when you feel anxious 🌼", msg: "Breathe in for 4, hold for 4, out for 6. You are safe. You are not behind. You are not too much. You are my girl and you are doing your best." },
+  { title: "Open when you need confidence 👑", msg: "You are gorgeous, smart, and magnetic. Walk in like the room has been waiting for you. Because it has." },
+  { title: "Open when you need to sleep 💤", msg: "Put the phone down in 10 minutes. Promise. I want your brain rested and your heart calm. Pretend I kissed your forehead right now." },
+  { title: "Open when you feel sad 💗", msg: "It’s okay to have soft days. You don’t need to perform for me. You can be messy, quiet, emotional — I’m still here, still yours." },
+  { title: "Open when you did something brave 🔥", msg: "I’m SO proud of you. Not just for the big wins — for the effort, the trying, and the not-giving-up. That’s hot actually." },
+  { title: "Open when you want to smile 🧸", msg: "Tiny reminder: you’re cute when you concentrate, cute when you ramble, cute when you steal blankets, and illegally cute when you laugh." },
+  { title: "Open when it’s one of those days 🌧️", msg: "Low battery day? Then today’s objective is simple: survive gently. Snack, shower, comfy clothes, little walk, one thing at a time." },
+  { title: "Open when you need a promise 💍", msg: "I choose you on easy days and hard days. Across distance, moods, and chaos. I’m not going anywhere." },
 ];
 
 const LOVE_LETTER = `Annie,
 
-I wanted to write you something like always hehe.
+This whole website is my way of leaving little pieces of love around for you to find whenever you need them.
 
-I love you. From the bottom of my heart. Even when we’re far apart and it’s annoying and I just want you next to me, you still feel like my person. I think about you all the time. The little things you say, your voice, your face, your laugh. You make every part of my life better.
+I love your laugh. I love your softness. I love your stubborn little spark. I love how you care so deeply, even when you act like you don’t.
 
-I’m proud of you as well. I know you deal with a lot and you still show up and keep going. I notice it. I notice you. And I’m always here for you to support you, even on the days you don’t feel like you’ve got it.
+I know life gets loud sometimes. I know distance can feel heavy. I know there are days where your mind makes everything harder than it needs to be. On those days, read this slowly:
 
-I made this little site because I wanted you to have something that feels like me. Something you can open when you miss me, or when you’re stressed, or when you just want a reminder that you’re loved. Because you are. A lot.
+You are not hard to love.
+You are not too much.
+You are not alone.
 
-I know the distance is hard sometimes, but I’m not going anywhere. I want you, and I’m choosing you, and I’m excited for everything we’re going to do together.
+You are my favourite person. Still. Always.
 
-I'm going to update this website with more letters each month for you, and add new things.
+I want all of it with you — the dumb jokes, the late-night talks, the chaotic errands, the slow mornings, the proud moments, the healing moments, the forever moments.
 
-I can't wait to see you soon.
+Thank you for being you. Thank you for trusting me with your heart.
 
-I Love you,
+I adore you, princess.
+
+Love,
 Tom 💙`;
 
 const MONTHLY_LETTERS = [
-  {
-    label: "Month 1 — The start",
-    date: "Oct 2024",
-    text: "This is where Tom can add a short monthly letter. (Edit script.js to change this.)"
-  },
-  {
-    label: "Month 2 — Missing you loads",
-    date: "Nov 2024",
-    text: "Little update: you’re still my favourite person. The distance is annoying but you’re worth it."
-  },
-  {
-    label: "Month 3 — More us, please",
-    date: "Dec 2024",
-    text: "If I could press a button and teleport to you, I would. Until then, this website is my workaround."
-  },
+  { label: "January note", date: "Jan 2026", text: "My goal this month: love you loudly, consistently, and in ways you can actually feel. More check-ins, more little surprises, more us." },
+  { label: "February note", date: "Feb 2026", text: "You are my favourite valentine every year. I hope this month feels like pink skies, warm hugs, and silly kisses." },
+  { label: "March note", date: "Mar 2026", text: "I hope your confidence grows wild this month. I hope you look in the mirror and see what I see: beauty and fire." },
+  { label: "April note", date: "Apr 2026", text: "When life gets noisy, come back to us. We’re not perfect, but we’re real, and we keep choosing each other." },
+  { label: "May note", date: "May 2026", text: "I hope this month gives you soft mornings, clean wins, and random moments that remind you how loved you are." },
 ];
 
 const MEMORIES = [
   {
-    date: "Oct 4, 2024",
-    title: "We became us",
-    text: "The day it started. (Tom can add what actually happened here.)",
+    date: "The beginning",
+    title: "The day everything changed",
+    text: "The moment we became us. I still remember how excited and calm I felt at the same time.",
     img: "assets/photos/1.jpg",
-    cap: "Our beginning 💙"
+    cap: "The start of my favourite story."
   },
   {
-    date: "That elite day",
-    title: "A proper memory",
-    text: "The kind of day that makes the distance feel worth it.",
+    date: "Our soft era",
+    title: "Learning each other",
+    text: "Inside jokes, tiny rituals, and that comfortable feeling that says ‘home’.",
     img: "assets/photos/2.jpg",
-    cap: "You look unreal here."
+    cap: "My beautiful girl."
   },
   {
-    date: "Little moments",
-    title: "The quiet stuff",
-    text: "The calm moments matter too — cuddles, laughs, the ‘doing nothing’ together.",
+    date: "Golden memory",
+    title: "A day I replay in my head",
+    text: "You looked unreal and I couldn’t stop smiling. That whole day felt cinematic.",
     img: "assets/photos/3.jpg",
-    cap: "Miss you. Like, a lot."
+    cap: "Main-character Annie energy."
+  },
+  {
+    date: "Everyday magic",
+    title: "The little things",
+    text: "Voice notes, sleepy texts, and the way we make ordinary moments feel special."
   },
   {
     date: "Next chapter",
-    title: "More soon",
-    text: "Tom can keep adding memories. This timeline is basically a living scrapbook.",
+    title: "Coming soon",
+    text: "More dates, more adventures, more photos, more everything. We’re just getting started."
   },
 ];
 
@@ -99,36 +98,36 @@ const GALLERY = [
 ];
 
 const REASONS = [
-  "Your laugh fixes my mood instantly.",
-  "Your eyes are actually unfair.",
-  "You make ‘ordinary’ days feel special.",
-  "You’re cute even when you’re being a menace.",
-  "You care deeply — it shows.",
-  "The way you look at me sometimes… yeah.",
-  "You’re strong, even when you don’t feel like it.",
-  "You feel like home to me.",
-  "You make me want to be better.",
-  "You’re my favourite person to talk to.",
-  "You’re gorgeous. Like, genuinely.",
-  "You’re soft, and you’re tough. Both.",
-  "You’re you. And that’s the whole point.",
+  "Your laugh resets my entire mood.",
   "You make me feel chosen.",
-  "You make me feel calm.",
-  "You make me feel alive.",
-  "You make me feel lucky.",
-  "You make me miss you in the best way.",
-  "You’re kind (even when you pretend you’re not).",
-  "You’re funny as hell.",
-  "You’re clever, and I love your brain.",
-  "You’re the person I want to share life with.",
-  "You’re worth the effort. Always.",
+  "You’re so pretty it should be regulated.",
+  "You are kind in ways people don’t always see.",
+  "You’re funny without trying.",
+  "You care deeply, and I adore that about you.",
+  "You make ordinary days feel special.",
+  "You’re my safe place.",
+  "You challenge me to be better.",
+  "You’re soft and strong at the same time.",
+  "You give the best comfort.",
+  "You look amazing in literally everything.",
+  "You are my favourite notification.",
+  "You make me feel lucky every single day.",
+  "You are pure girlfriend material and then some.",
+  "You’re my home, even from far away.",
   "You’re my peace.",
-  "You’re my chaos (in a cute way).",
-  "You’re my comfort.",
-  "You’re my favourite notification.",
-  "You’re my favourite smile.",
-  "You’re the best cuddle in the world.",
-  "You’re the reason this website exists. 💙",
+  "You’re my chaos (the cute version).",
+  "You are wildly lovable.",
+  "You make me believe in forever.",
+  "You’re the person I want to celebrate life with.",
+  "You are my best friend and my favourite crush.",
+  "You deserve soft love and I want to give you that.",
+  "I can be fully myself with you.",
+  "You make love feel easy and exciting at once.",
+  "You make hard days lighter.",
+  "You’re the first person I want to tell everything to.",
+  "You make me smile at my phone like an idiot.",
+  "You are my person. End of story.",
+  "Because you’re Annie. That’s enough forever. 💙",
 ];
 
 // =========================================================
@@ -777,6 +776,26 @@ function escapeAttr(str){
   return escapeHtml(str).replaceAll("`","&#096;");
 }
 
+
+function initDreams(){
+  const btn = $("#dreamBtn");
+  const out = $("#dreamText");
+  if (!btn || !out) return;
+  const dreams = [
+    "Matching hoodies, rainy day coffee, and a long walk where we talk about everything.",
+    "A weekend escape with no alarms, just cuddles and room service pancakes.",
+    "A silly photo booth strip that we keep in our wallet forever.",
+    "Cooking together badly, laughing too much, and ordering dessert anyway.",
+    "A cozy movie night with fairy lights and you falling asleep on my chest.",
+    "Passport stamps, beach sunsets, and me taking 200 photos of you.",
+  ];
+  btn.addEventListener("click", () => {
+    const d = dreams[Math.floor(Math.random()*dreams.length)];
+    out.textContent = d;
+    popSound();
+  });
+}
+
 // =========================================================
 // Boot
 // =========================================================
@@ -802,4 +821,5 @@ function escapeAttr(str){
   if (page === "gallery") initGallery();
   if (page === "reasons") initReasons();
   if (page === "secret") initSecret();
+  if (page === "dreams") initDreams();
 })();

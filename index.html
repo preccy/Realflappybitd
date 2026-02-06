@@ -3,90 +3,46 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>For Annie 💙</title>
-
-  <!-- Fonts (cute + classy) -->
+  <title>Annie's Cozy Universe 💖</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700&family=Quicksand:wght@400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
-
   <link rel="stylesheet" href="styles.css" />
-  <meta name="theme-color" content="#7fb8ff">
 </head>
-
 <body class="theme-sky" data-page="landing">
   <a class="skip" href="#main">Skip</a>
-
-  <!-- Ambient background layers -->
-  <div class="bg" aria-hidden="true">
-    <div class="bg__mesh"></div>
-    <div class="bg__stars"></div>
-    <div class="bg__grain"></div>
-  </div>
+  <div class="bg" aria-hidden="true"><div class="bg__mesh"></div><div class="bg__stars"></div><div class="bg__grain"></div></div>
 
   <main id="main" class="landing">
     <section class="landing-card glass reveal">
-      <div class="chip">a tiny corner of the internet 💙</div>
-
-      <h1 class="title">
-        Hi <span class="name">Annie</span><span class="spark">✦</span>
-      </h1>
-
-      <p class="lead">
-        I made this for you — for the days you miss me, need a smile, or just want a reminder that you’re loved.
-      </p>
+      <p class="chip">Welcome to Annie's adorable corner ✨</p>
+      <h1 class="title">For <span class="name">Annie</span><span class="spark">♡</span></h1>
+      <p class="lead">A tiny magical world built with love, soft colors, memories, silly notes, and a million reminders that you are cherished.</p>
 
       <div class="stat-row">
-        <div class="stat">
-          <div class="stat__big" id="daysTogether">0</div>
-          <div class="stat__small">days since <span class="muted">Oct 4th, 2024</span></div>
-        </div>
-
-        <div class="stat">
-          <div class="stat__big" id="todayNice">💙</div>
-          <div class="stat__small">today’s vibe</div>
-        </div>
+        <div class="stat"><div class="stat__big" id="daysTogether">0</div><div class="stat__small">days of us and counting</div></div>
+        <div class="stat"><div class="stat__big" id="todayNice">cozy</div><div class="stat__small">today's mood</div></div>
       </div>
 
       <div class="landing-actions">
-        <a class="btn btn--primary" href="annie.html" data-sfx>
-          Enter the Love Hub 💌
-        </a>
-        <button class="btn btn--ghost" id="toggleTheme" data-sfx aria-label="Toggle theme">
-          Theme: Sky
-        </button>
-        <button class="btn btn--ghost" id="toggleSparkles" data-sfx>
-          Sparkles: ON
-        </button>
-        <button class="btn btn--ghost" id="toggleSound" data-sfx>
-          Sound: ON
-        </button>
+        <a class="btn btn--primary" href="annie.html" data-sfx>Enter Annie's Love World 💌</a>
+        <button class="btn btn--ghost" id="toggleTheme" data-sfx>Theme: Sky</button>
+        <button class="btn btn--ghost" id="toggleSparkles" data-sfx>Sparkles: ON</button>
+        <button class="btn btn--ghost" id="toggleSound" data-sfx>Sound: ON</button>
       </div>
 
-      <p class="tiny muted">
-        Tip: tap anywhere for sparkles ✨
-      </p>
-
-      <p class="tiny muted">
-        <a class="tiny-link" href="annie.html#howto">P.S. Tom can add more pages anytime.</a>
-      </p>
+      <p class="tiny muted">Tap anywhere for sparkles. Click around. There are surprises everywhere.</p>
     </section>
   </main>
 
   <div class="modal" id="modal" aria-hidden="true">
     <div class="modal__backdrop" data-close></div>
     <div class="modal__card glass" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
-      <div class="modal__top">
-        <h3 id="modalTitle">Title</h3>
-        <button class="icon-btn" data-close aria-label="Close">✕</button>
-      </div>
+      <div class="modal__top"><h3 id="modalTitle">Title</h3><button class="icon-btn" data-close>✕</button></div>
       <div class="modal__body" id="modalBody"></div>
-      <div class="modal__actions">
-        <button class="btn btn--primary" data-close data-sfx>Okay 💙</button>
-      </div>
+      <div class="modal__actions"><button class="btn btn--primary" data-close data-sfx>Okay 💖</button></div>
     </div>
   </div>
-
   <script src="script.js"></script>
 </body>
 </html>

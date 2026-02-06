@@ -809,3 +809,21 @@ body.theme-night .lightbox__backdrop{
   .particle{ display:none; }
   .btn, .pill, .card, .polaroid, .g-item { transition:none; }
 }
+
+/* --- Adorable redesign additions --- */
+:root{
+  --accent:#9ec5ff;
+  --accent2:#ffc3de;
+  --accent3:#fff2bf;
+}
+body{background:linear-gradient(170deg,#fff8fd 0%,#f2f8ff 60%,#fdfcff 100%);} 
+.title{font-family:var(--font-cute);letter-spacing:.2px;}
+.glass{backdrop-filter: blur(14px); border:1px solid rgba(255,255,255,.5);} 
+.btn--primary{background:linear-gradient(120deg,var(--accent2),var(--accent)); color:#10233f; border:none;}
+.btn--primary:hover{transform:translateY(-2px) scale(1.01);} 
+.card,.mini-stat,.jar,.landing-card{position:relative;overflow:hidden;}
+.card::after,.mini-stat::after,.jar::after,.landing-card::after{content:"";position:absolute;inset:auto -20% -45% -20%;height:120px;background:radial-gradient(circle at 50% 0%,rgba(255,255,255,.65),transparent 70%);} 
+.logo__mark{background:linear-gradient(140deg,#ffd1e6,#a7d0ff); color:#17345d;}
+.list{margin:0;padding-left:1.2rem;display:grid;gap:.45rem;}
+.nav__links a{font-weight:700;}
+.spark{color:#ff72b3}
