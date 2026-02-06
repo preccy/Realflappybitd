@@ -3,193 +3,81 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>For Annie 💙</title>
-
-  <!-- Fonts (cute + classy) -->
+  <title>Annie's Love World 💖</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700&family=Quicksand:wght@400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
-
   <link rel="stylesheet" href="styles.css" />
-  <meta name="theme-color" content="#7fb8ff">
 </head>
-
 <body class="theme-sky" data-page="home">
-  <a class="skip" href="#main">Skip</a>
+<a class="skip" href="#main">Skip</a>
+<div class="bg" aria-hidden="true"><div class="bg__mesh"></div><div class="bg__stars"></div><div class="bg__grain"></div></div>
+<header class="topbar">
+  <nav class="nav wrap">
+    <a class="logo" href="annie.html"><span class="logo__mark">A</span><span class="logo__mark">♡</span><span class="logo__text">Annieverse</span></a>
+    <button class="nav__toggle icon-btn" id="navToggle">☰</button>
+    <div class="nav__links" id="navLinks">
+      <a href="letters.html">Letters</a><a href="memories.html">Memories</a><a href="gallery.html">Gallery</a><a href="reasons.html">Reasons</a><a href="dreams.html">Dreams</a><a href="secret.html" class="nav__secret">✦</a>
+    </div>
+    <div class="nav__actions"><button class="pill" id="toggleTheme" data-sfx>Theme: Sky</button><button class="pill" id="toggleSparkles" data-sfx>Sparkles: ON</button><button class="pill" id="toggleSound" data-sfx>Sound: ON</button></div>
+  </nav>
+</header>
 
-  <div class="bg" aria-hidden="true">
-    <div class="bg__mesh"></div>
-    <div class="bg__stars"></div>
-    <div class="bg__grain"></div>
-  </div>
-
-  <header class="topbar">
-    <nav class="nav wrap">
-      <a class="logo" href="annie.html" aria-label="Home">
-        <span class="logo__mark">A</span><span class="logo__mark">T</span>
-        <span class="logo__text">Love Hub</span>
-      </a>
-
-      <button class="nav__toggle icon-btn" id="navToggle" aria-label="Open menu">☰</button>
-
-      <div class="nav__links" id="navLinks">
-        <a href="letters.html" data-nav>Letters</a>
-        <a href="memories.html" data-nav>Memories</a>
-        <a href="gallery.html" data-nav>Gallery</a>
-        <a href="reasons.html" data-nav>Reasons</a>
-        <a href="secret.html" class="nav__secret" title="shh" aria-label="Secret">✦</a>
+<main id="main" class="wrap page">
+  <section class="hero reveal">
+    <div class="hero__left">
+      <div class="chip">CUTEST GIRLFRIEND ON EARTH 🌸</div>
+      <h1 class="title">Hi beautiful <span class="name">Annie</span> <span class="spark">✦</span></h1>
+      <p class="lead">I redesigned this whole place to feel like a digital hug. Open anything you want when you need comfort, hype, softness, laughter, or just me.</p>
+      <div class="hero__cta">
+        <button class="btn btn--primary" id="btnSurprise" data-sfx>Press for instant love 💌</button>
+        <a class="btn btn--ghost" href="letters.html#letter" data-sfx>Read a long letter</a>
+        <a class="btn btn--ghost" href="dreams.html" data-sfx>Future dreams ✨</a>
       </div>
-
-      <div class="nav__actions">
-        <button class="pill" id="toggleTheme" data-sfx>Theme: Sky</button>
-        <button class="pill" id="toggleSparkles" data-sfx>Sparkles: ON</button>
-        <button class="pill" id="toggleSound" data-sfx>Sound: ON</button>
-      </div>
-    </nav>
-  </header>
-
-  <main id="main" class="wrap page">
-    <section class="hero reveal">
-      <div class="hero__left">
-        <div class="chip">LONG DISTANCE, BIG LOVE 💙</div>
-
-        <h1 class="title">
-          Hi <span class="name">Annie</span><span class="spark">✦</span>
-        </h1>
-
-        <p class="lead">
-          Welcome to your Love Hub. It’s basically a little “me” you can open whenever you want —
-          full of letters, memories, photos, and some cute surprises.
-        </p>
-
-        <div class="hero__cta">
-          <button class="btn btn--primary" id="btnSurprise" data-sfx>Open a surprise 💌</button>
-          <a class="btn btn--ghost" href="letters.html#letter" data-sfx>Read my letter ✍️</a>
-          <a class="btn btn--ghost" href="gallery.html" data-sfx>Go to photos 📸</a>
-        </div>
-
-        <div class="mini-stats">
-          <div class="mini-stat glass">
-            <div class="mini-stat__big"><span id="daysTogether">0</span> days</div>
-            <div class="mini-stat__small muted">since Oct 4th, 2024</div>
-          </div>
-          <div class="mini-stat glass">
-            <div class="mini-stat__big">✨ <span id="vibeWord">cozy</span></div>
-            <div class="mini-stat__small muted" id="vibeLine">today’s vibe</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="hero__right">
-        <div class="polaroid-stack">
-          <figure class="polaroid polaroid--tilt1 reveal" data-lightbox data-full="assets/photos/1.jpg" data-caption="This day was elite.">
-            <img src="assets/photos/1.jpg" alt="A photo of us" loading="lazy">
-            <figcaption>This day was elite.</figcaption>
-          </figure>
-          <figure class="polaroid polaroid--tilt2 reveal" data-lightbox data-full="assets/photos/2.jpg" data-caption="You look unreal here btw.">
-            <img src="assets/photos/2.jpg" alt="A photo of us" loading="lazy">
-            <figcaption>You look unreal here btw.</figcaption>
-          </figure>
-          <figure class="polaroid polaroid--tilt3 reveal" data-lightbox data-full="assets/photos/3.jpg" data-caption="Miss you. Like, a lot.">
-            <img src="assets/photos/3.jpg" alt="A photo of us" loading="lazy">
-            <figcaption>Miss you. Like, a lot.</figcaption>
-          </figure>
-        </div>
-        <p class="tiny muted center">Tap a photo to zoom ✨</p>
-      </div>
-    </section>
-
-    <section class="section reveal" id="howto">
-      <h2 class="h2">Pick a vibe</h2>
-      <p class="muted">This is the “hub” — each page is a different kind of comfort.</p>
-
-      <div class="cards">
-        <a class="card glass" href="letters.html" data-sfx>
-          <div class="card__icon">💌</div>
-          <div class="card__title">Open-when letters</div>
-          <div class="card__text">Little messages for specific moments.</div>
-        </a>
-
-        <a class="card glass" href="memories.html" data-sfx>
-          <div class="card__icon">🗓️</div>
-          <div class="card__title">Our timeline</div>
-          <div class="card__text">A cute memory board we can keep adding to.</div>
-        </a>
-
-        <a class="card glass" href="gallery.html" data-sfx>
-          <div class="card__icon">📸</div>
-          <div class="card__title">Scrapbook gallery</div>
-          <div class="card__text">Tap photos for a little “museum of us”.</div>
-        </a>
-
-        <a class="card glass" href="reasons.html" data-sfx>
-          <div class="card__icon">🍯</div>
-          <div class="card__title">Reasons jar</div>
-          <div class="card__text">Random reasons I love you (unlimited refills).</div>
-        </a>
-      </div>
-    </section>
-
-    <section class="section reveal">
-      <div class="split">
-        <div class="glass pad">
-          <h2 class="h2">Our song</h2>
-          <p class="muted">Drop your MP3 in <code>assets/music/our-song.mp3</code> and this button just works.</p>
-
-          <div class="song">
-            <button class="btn btn--primary" id="songBtn" data-sfx>Play 🎧</button>
-            <div class="song__meta">
-              <div class="song__title" id="songTitle">We Fell in Love in October</div>
-              <div class="song__status muted" id="songStatus">Not playing</div>
-            </div>
-          </div>
-
-          <audio id="ourSong" preload="none">
-            <source src="assets/music/our-song.mp3" type="audio/mpeg">
-          </audio>
-        </div>
-
-        <div class="glass pad">
-          <h2 class="h2">A quick surprise</h2>
-          <p class="muted">Click for a random little message. (I know it’s cringe. Allow it.)</p>
-
-          <button class="btn btn--ghost" id="btnSurprise2" data-sfx>Surprise me 💙</button>
-          <div class="tiny muted" id="surpriseHint">P.S. tap anywhere for sparkles ✨</div>
-        </div>
-      </div>
-    </section>
-
-    <footer class="footer reveal">
-      <p class="muted">Made with love 💙</p>
-      <p class="tiny muted">If you ever feel alone, open this and remember you’re my person.</p>
-    </footer>
-  </main>
-
-  <!-- Modal -->
-  <div class="modal" id="modal" aria-hidden="true">
-    <div class="modal__backdrop" data-close></div>
-    <div class="modal__card glass" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
-      <div class="modal__top">
-        <h3 id="modalTitle">Title</h3>
-        <button class="icon-btn" data-close aria-label="Close">✕</button>
-      </div>
-      <div class="modal__body" id="modalBody"></div>
-      <div class="modal__actions">
-        <button class="btn btn--primary" data-close data-sfx>Okay 💙</button>
+      <div class="mini-stats">
+        <div class="mini-stat glass"><div class="mini-stat__big"><span id="daysTogether">0</span> days</div><div class="mini-stat__small muted">of choosing each other</div></div>
+        <div class="mini-stat glass"><div class="mini-stat__big">today: <span id="vibeWord">cozy</span></div><div class="mini-stat__small muted" id="vibeLine">soft and safe energy</div></div>
       </div>
     </div>
-  </div>
-
-  <!-- Lightbox -->
-  <div class="lightbox" id="lightbox" aria-hidden="true">
-    <div class="lightbox__backdrop" data-lb-close></div>
-    <div class="lightbox__card glass" role="dialog" aria-modal="true">
-      <button class="icon-btn lightbox__close" data-lb-close aria-label="Close">✕</button>
-      <img id="lightboxImg" alt="Zoomed photo">
-      <div class="lightbox__cap muted" id="lightboxCap"></div>
+    <div class="hero__right">
+      <div class="polaroid-stack">
+        <figure class="polaroid polaroid--tilt1 reveal" data-lightbox data-full="assets/photos/1.jpg" data-caption="My forever pretty girl"><img src="assets/photos/1.jpg" alt="us"><figcaption>my forever pretty girl</figcaption></figure>
+        <figure class="polaroid polaroid--tilt2 reveal" data-lightbox data-full="assets/photos/2.jpg" data-caption="still obsessed"><img src="assets/photos/2.jpg" alt="us"><figcaption>still obsessed</figcaption></figure>
+        <figure class="polaroid polaroid--tilt3 reveal" data-lightbox data-full="assets/photos/3.jpg" data-caption="you are magic"><img src="assets/photos/3.jpg" alt="us"><figcaption>you are magic</figcaption></figure>
+      </div>
+      <p class="tiny muted center">Tap photos to zoom 🫶</p>
     </div>
-  </div>
+  </section>
 
-  <script src="script.js"></script>
+  <section class="section reveal" id="howto">
+    <h2 class="h2">Pick your comfort portal</h2>
+    <div class="cards">
+      <a class="card glass" href="letters.html" data-sfx><div class="card__icon">💌</div><div class="card__title">Open-When Letters</div><div class="card__text">For anxiety days, sleepy nights, and missing-me moments.</div></a>
+      <a class="card glass" href="memories.html" data-sfx><div class="card__icon">🗓️</div><div class="card__title">Timeline</div><div class="card__text">Our story so far and the chapters to come.</div></a>
+      <a class="card glass" href="reasons.html" data-sfx><div class="card__icon">🍯</div><div class="card__title">Reasons Jar</div><div class="card__text">Infinite reasons I love you.</div></a>
+      <a class="card glass" href="dreams.html" data-sfx><div class="card__icon">🌙</div><div class="card__title">Future Dreams</div><div class="card__text">Date ideas and adventures for us.</div></a>
+    </div>
+  </section>
+
+  <section class="section reveal">
+    <div class="split">
+      <div class="glass pad">
+        <h2 class="h2">Our song corner</h2>
+        <p class="muted">Put your song at <code>assets/music/our-song.mp3</code> and this turns into your little soundtrack space.</p>
+        <div class="song"><button class="btn btn--primary" id="songBtn" data-sfx>Play 🎧</button><span class="tiny muted" id="songStatus">Not playing</span></div>
+        <audio id="ourSong" src="assets/music/our-song.mp3" preload="none"></audio>
+      </div>
+      <div class="glass pad">
+        <h2 class="h2">Emergency princess support</h2>
+        <ul class="list muted"><li>drink water, baby</li><li>eat something small</li><li>take a deep breath</li><li>text me if you need me</li></ul>
+        <button class="btn btn--ghost" id="btnSurprise2" data-sfx>Need reassurance now 💖</button>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div class="lightbox" id="lightbox" aria-hidden="true"><div class="lightbox__backdrop" data-lb-close></div><div class="lightbox__card glass"><button class="icon-btn lightbox__close" data-lb-close>✕</button><img id="lightboxImg" alt="Zoomed photo"><div class="lightbox__cap muted" id="lightboxCap"></div></div></div>
+<div class="modal" id="modal" aria-hidden="true"><div class="modal__backdrop" data-close></div><div class="modal__card glass"><div class="modal__top"><h3 id="modalTitle">Title</h3><button class="icon-btn" data-close>✕</button></div><div class="modal__body" id="modalBody"></div><div class="modal__actions"><button class="btn btn--primary" data-close data-sfx>Okay 💖</button></div></div></div>
+<script src="script.js"></script>
 </body>
 </html>
