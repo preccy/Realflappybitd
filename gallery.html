@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Gallery 📸</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700&family=Quicksand:wght@400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body class="theme-sky" data-page="gallery">
+  <a class="skip" href="#main">Skip</a>
+
+  <div class="bg" aria-hidden="true">
+    <div class="bg__mesh"></div>
+    <div class="bg__stars"></div>
+    <div class="bg__grain"></div>
+  </div>
+
+  <header class="topbar">
+    <nav class="nav wrap">
+      <a class="logo" href="annie.html"><span class="logo__mark">A</span><span class="logo__mark">T</span><span class="logo__text">Love Hub</span></a>
+      <button class="nav__toggle icon-btn" id="navToggle" aria-label="Open menu">☰</button>
+      <div class="nav__links" id="navLinks">
+        <a href="letters.html" data-nav>Letters</a>
+        <a href="memories.html" data-nav>Memories</a>
+        <a href="gallery.html" data-nav class="is-active">Gallery</a>
+        <a href="reasons.html" data-nav>Reasons</a>
+        <a href="annie.html" class="nav__secret" title="back">⌂</a>
+      </div>
+      <div class="nav__actions">
+        <button class="pill" id="toggleTheme" data-sfx>Theme: Sky</button>
+        <button class="pill" id="toggleSparkles" data-sfx>Sparkles: ON</button>
+        <button class="pill" id="toggleSound" data-sfx>Sound: ON</button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main" class="wrap page">
+    <section class="section reveal">
+      <h1 class="title">Scrapbook gallery <span class="spark">✦</span></h1>
+      <p class="lead muted">Tap a photo to zoom. Tom can add more any time.</p>
+
+      <div class="gallery" id="galleryGrid"></div>
+    </section>
+
+    <footer class="footer reveal">
+      <p class="muted">You + me = elite 💙</p>
+    </footer>
+  </main>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <div class="lightbox__backdrop" data-lb-close></div>
+    <div class="lightbox__card glass" role="dialog" aria-modal="true">
+      <button class="icon-btn lightbox__close" data-lb-close aria-label="Close">✕</button>
+      <img id="lightboxImg" alt="Zoomed photo">
+      <div class="lightbox__cap muted" id="lightboxCap"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

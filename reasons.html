@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Reasons 🍯</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700&family=Quicksand:wght@400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body class="theme-sky" data-page="reasons">
+  <a class="skip" href="#main">Skip</a>
+
+  <div class="bg" aria-hidden="true">
+    <div class="bg__mesh"></div>
+    <div class="bg__stars"></div>
+    <div class="bg__grain"></div>
+  </div>
+
+  <header class="topbar">
+    <nav class="nav wrap">
+      <a class="logo" href="annie.html"><span class="logo__mark">A</span><span class="logo__mark">T</span><span class="logo__text">Love Hub</span></a>
+      <button class="nav__toggle icon-btn" id="navToggle" aria-label="Open menu">☰</button>
+      <div class="nav__links" id="navLinks">
+        <a href="letters.html" data-nav>Letters</a>
+        <a href="memories.html" data-nav>Memories</a>
+        <a href="gallery.html" data-nav>Gallery</a>
+        <a href="reasons.html" data-nav class="is-active">Reasons</a>
+        <a href="annie.html" class="nav__secret" title="back">⌂</a>
+      </div>
+      <div class="nav__actions">
+        <button class="pill" id="toggleTheme" data-sfx>Theme: Sky</button>
+        <button class="pill" id="toggleSparkles" data-sfx>Sparkles: ON</button>
+        <button class="pill" id="toggleSound" data-sfx>Sound: ON</button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main" class="wrap page">
+    <section class="section reveal">
+      <h1 class="title">Reasons I love you <span class="spark">✦</span></h1>
+      <p class="lead muted">A little jar of reasons — for the days you forget how loved you are.</p>
+
+      <div class="jar glass pad">
+        <div class="jar__bubble" id="jarBubble">Click the jar 💙</div>
+        <div class="row row--wrap">
+          <button class="btn btn--primary" id="jarBtn" data-sfx>Pick a reason 🍯</button>
+          <button class="btn btn--ghost" id="copyReason" data-sfx>Copy</button>
+        </div>
+        <p class="tiny muted">Tip: spam it. I dare you.</p>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <h2 class="h2">The full list</h2>
+      <p class="muted">If you’re having a day, scroll this like it’s a comfort playlist.</p>
+      <ol class="reasons" id="reasonsList"></ol>
+    </section>
+
+    <footer class="footer reveal">
+      <p class="muted">I choose you. Always. 💙</p>
+    </footer>
+  </main>
+
+  <!-- Toast -->
+  <div class="toast" id="toast" aria-live="polite" aria-atomic="true"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

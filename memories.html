@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Memories 🗓️</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700&family=Quicksand:wght@400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body class="theme-sky" data-page="memories">
+  <a class="skip" href="#main">Skip</a>
+
+  <div class="bg" aria-hidden="true">
+    <div class="bg__mesh"></div>
+    <div class="bg__stars"></div>
+    <div class="bg__grain"></div>
+  </div>
+
+  <header class="topbar">
+    <nav class="nav wrap">
+      <a class="logo" href="annie.html"><span class="logo__mark">A</span><span class="logo__mark">T</span><span class="logo__text">Love Hub</span></a>
+      <button class="nav__toggle icon-btn" id="navToggle" aria-label="Open menu">☰</button>
+      <div class="nav__links" id="navLinks">
+        <a href="letters.html" data-nav>Letters</a>
+        <a href="memories.html" data-nav class="is-active">Memories</a>
+        <a href="gallery.html" data-nav>Gallery</a>
+        <a href="reasons.html" data-nav>Reasons</a>
+        <a href="annie.html" class="nav__secret" title="back">⌂</a>
+      </div>
+      <div class="nav__actions">
+        <button class="pill" id="toggleTheme" data-sfx>Theme: Sky</button>
+        <button class="pill" id="toggleSparkles" data-sfx>Sparkles: ON</button>
+        <button class="pill" id="toggleSound" data-sfx>Sound: ON</button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main" class="wrap page">
+    <section class="section reveal">
+      <h1 class="title">Our timeline <span class="spark">✦</span></h1>
+      <p class="lead muted">
+        A place for the “little” moments that actually feel huge. (Tom can keep adding to this over time.)
+      </p>
+
+      <div class="glass pad">
+        <div class="row row--wrap">
+          <div class="chip">Days together: <b><span id="daysTogether">0</span></b></div>
+          <button class="btn btn--ghost" id="addMemoryHint" data-sfx>How to add new memories</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="timeline" id="timeline"></div>
+    </section>
+
+    <footer class="footer reveal">
+      <p class="muted">More memories soon. 💙</p>
+    </footer>
+  </main>
+
+  <!-- Modal -->
+  <div class="modal" id="modal" aria-hidden="true">
+    <div class="modal__backdrop" data-close></div>
+    <div class="modal__card glass" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <div class="modal__top">
+        <h3 id="modalTitle">Title</h3>
+        <button class="icon-btn" data-close aria-label="Close">✕</button>
+      </div>
+      <div class="modal__body" id="modalBody"></div>
+      <div class="modal__actions">
+        <button class="btn btn--primary" data-close data-sfx>Okay 💙</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
